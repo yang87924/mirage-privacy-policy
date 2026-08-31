@@ -9,7 +9,7 @@
 本檔是**產生物**。內容的唯一正本在私有 monorepo：
 
 ```text
-mirror_finance_mono/mirror_finance_app/lib/features/settings/presentation/pages/legal_content.dart
+mirage_finance_mono/mirage_finance_app/lib/features/settings/presentation/pages/legal_content.dart
 ```
 
 那份同時是 App 內「設定 → 關於 → 隱私政策」顯示的內容——
@@ -20,7 +20,7 @@ mirror_finance_mono/mirror_finance_app/lib/features/settings/presentation/pages/
 改完正本後，在 monorepo 執行：
 
 ```powershell
-node scripts/generate-legal-pages.mjs --publish-to D:\code\side-projcet\mirror-privacy-policy
+node scripts/generate-legal-pages.mjs --publish-to D:\code\side-projcet\mirage-privacy-policy
 ```
 
 再於本 repo `git add index.html && git commit && git push`。
